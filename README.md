@@ -28,4 +28,4 @@ One modification worth making to the Stanford ML group's implementation is to us
 [Decoupled Weight Decay Regularization](https://arxiv.org/pdf/1711.05101.pdf)
 
 
-*Note: Currently only the Jupyter notebook is fully functioning, as I am in the process of reorganizing the code for public use.
+*Note: Currently only the Jupyter notebook is fully functioning, as I am in the process of reorganizing the code for public use.*
