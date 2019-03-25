@@ -13,13 +13,13 @@ When used together with batch normalization, weight decay and learning rate deca
 
 One modification worth making to the Stanford ML group's implementation is to use the AdamWR algorithm, which has a corrected weight decay with a normalized batch norm, and uses cosine annealing that resets on every batch to attempt to improve the speed of convergence.
 
-Datasets:
+##### Datasets:
 
 [CheXpert](https://stanfordmlgroup.github.io/competitions/chexpert/)
 
 [MIMIC-CXR](https://physionet.org/physiobank/database/mimiccxr/)
 
-References:
+##### References:
 
 [CheXpert: A Large Chest Radiograph Dataset with Uncertainty Labels and Expert Comparison](https://arxiv.org/abs/1901.07031)
 
