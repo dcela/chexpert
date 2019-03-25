@@ -1,7 +1,7 @@
 CheXpert
 ==============================
 
-An entry for the CheXpert competition from the Stanford ML group.
+An entry for the CheXpert competition from the Stanford ML group. The goal is to create a multi-label classifier for chest X-ray image that outputs probabilities of 14 different observations (including 12 pathologies, "No Finding", and "Support Devices").
 
 I will set uncertainty u = 1 (as described in their paper) for the first trial run.
 
