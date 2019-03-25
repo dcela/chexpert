@@ -3,7 +3,7 @@ CheXpert
 
 An entry for the CheXpert competition from the Stanford ML group. The goal is to create a multi-label classifier for chest X-ray image that outputs probabilities of 14 different observations (including 12 pathologies, "No Finding", and "Support Devices").
 
-I will set uncertainty u = 1 (as described in their paper) for the first trial run.
+I set uncertainty u = 1 (as described in their paper) for the first models. In a future step the uncertain labels will be re-labeled using a second supervised learning algorithm.
 
 The CheXpert paper uses an Adam optimizer withh default beta and constant learning rate = 1e-4, uses batch normalization with a batch size of 16, 3 epochs, and saved checkpoint every 4800 iterations. 
 
